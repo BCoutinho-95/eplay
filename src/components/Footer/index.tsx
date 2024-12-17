@@ -69,7 +69,6 @@ const Footer = () => (
               Em breve
             </S.Link>
           </li>
-          S
         </S.Links>
       </S.FooterSection>
       <p>{currentYear} - &copy; E-PLAY Todos os direitos reservados</p>

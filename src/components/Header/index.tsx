@@ -49,7 +49,7 @@ const Header = () => {
                   title="Clique aqui para acessar a seção de em breve"
                   to="/#coming-soon"
                 >
-                  Novidades
+                  Em breve
                 </HashLink>
               </S.LinkItem>
               <S.LinkItem>
@@ -82,7 +82,7 @@ const Header = () => {
           </S.LinkItem>
           <S.LinkItem>
             <HashLink
-              title="Clique aqui para acessar a seção de promoções"
+              title="Clique aqui para acessar a seção de em breve"
               to="/#coming-soon"
               onClick={() => setIsMenuOpen(false)}
             >

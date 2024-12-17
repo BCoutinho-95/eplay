@@ -24,7 +24,7 @@ export const HeaderBar = styled.header`
     font-weight: bold;
   }
 
-  h2 {
+  h1 {
     line-height: 0;
   }
 `
@@ -64,8 +64,8 @@ export const LinkItem = styled.li`
     margin-right: 0;
 
     a {
-      display: block;
       padding: 16px 0;
+      display: block;
       text-align: center;
     }
   }
@@ -85,6 +85,7 @@ export const CartButton = styled.span`
     }
   }
 `
+
 export const Hamburguer = styled.div`
   width: 32px;
 

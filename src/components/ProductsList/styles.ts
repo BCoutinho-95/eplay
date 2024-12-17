@@ -9,11 +9,11 @@ export const Container = styled.section<
 >`
   padding: 32px 0;
   background-color: ${(props) =>
-    props.background === 'black' ? colors.gray : colors.gray};
+    props.background === 'black' ? colors.black : colors.gray};
 
   ${Card} {
     background-color: ${(props) =>
-      props.background === 'black' ? colors.gray : colors.gray};
+      props.background === 'black' ? colors.gray : colors.black};
   }
 `
 
